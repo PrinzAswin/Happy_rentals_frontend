@@ -1,0 +1,46 @@
+.f-about img {
+    width: 190px;
+}
+
+.f-connect li i {
+    font-size: 1.5rem;
+}
+
+.foot-about {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(322deg, rgba(255, 255, 255, 1) 0%, rgba(239, 245, 247, 1) 19%, rgba(229, 245, 252, 1) 100%);
+    display: flex;
+    padding-top: 40px;
+    justify-content: space-around;
+}
+
+.foot-about ul li {
+    cursor: pointer;
+    color: #1874a8;
+    line-height: 2.3;
+    font-size: 1rem;
+}
+
+.foot-about ul li:hover {
+    text-decoration: underline;
+}
+
+.foot-about ul li strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/*copy rights*/
+
+.copy {
+    color: #1874a8;
+    padding: 30px 0 40px 0;
+    font-size: .8rem;
+    font-weight: 430;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(322deg, rgba(255, 255, 255, 1) 0%, rgba(239, 245, 247, 1) 19%, rgba(229, 245, 252, 1) 100%);
+}

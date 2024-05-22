@@ -1,0 +1,57 @@
+#forms {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 60px;
+    padding: 40px 70px 60px;
+    position: absolute;
+    top: 28rem;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    border-radius: 30px;
+}
+
+#forms #h11 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #0077b6;
+}
+
+.details {
+    display: flex;
+}
+
+.details input {
+    margin: 10px;
+    padding: 8px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: none;
+    &:focus {
+        outline: none;
+    }
+}
+
+#images {
+    border: transparent;
+}
+
+#sub1 {
+    padding: 0.8125rem;
+    position: absolute;
+    top: 93%;
+    left: 40%;
+    width: 9.375rem;
+    border-radius: 1.5625rem;
+    border: 0.0625rem solid snow;
+    background-color: #0077b6;
+    color: snow;
+    font-weight: 700;
+    &:hover {
+        border: 0.125rem solid #0077b6;
+        background-color: transparent;
+        color: #0077b6;
+        cursor: pointer;
+        transition: all 0.1s linear;
+    }
+}

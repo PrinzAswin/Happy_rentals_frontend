@@ -1,0 +1,221 @@
+/* Search container */
+
+:root {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+#Search-container {
+    width: 100vw;
+    height: 45%;
+}
+
+#Search-container #Search-header {
+    padding: 1rem 0 0 2rem;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1874a8;
+}
+
+.Search1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 1.5rem .7rem 1.5rem;
+}
+
+.Search1 .pickup,
+.Search1 .searchbox2 {
+    /* background: rgb(255, 255, 255); */
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+    color: #1874a8;
+    font-size: 1.1rem;
+    outline: #1874a8;
+    position: relative;
+    width: 48vw;
+    padding: 1rem;
+    border: 1px solid #1874a8;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.dataResult {
+    text-indent: 1rem;
+    font-size: 1.2rem;
+    width: 48.5vw;
+    height: 15rem;
+    background-color: white;
+    border-radius: 9px;
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult::-webkit-scrollbar {
+    display: inline;
+}
+
+.data-indent p {
+    padding: .3rem;
+    color: #1874a8;
+}
+
+.data-indent p:hover {
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+    color: #1874a8;
+    transition: .1s ease-in;
+    -webkit-transition: .1s ease-in;
+    -moz-transition: .1s ease-in;
+    -ms-transition: .1s ease-in;
+    -o-transition: .1s ease-in;
+}
+
+
+/* searchbox2 */
+
+.dataResult2 {
+    left: 48.6%;
+    text-indent: 1rem;
+    font-size: 1.2rem;
+    width: 48vw;
+    height: 15rem;
+    background-color: white;
+    border-radius: 9px;
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-bottom: .5rem;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.dataResult2::-webkit-scrollbar {
+    display: none;
+}
+
+.data-indent2 p:hover {
+    cursor: pointer;
+    background-color: #0070868e;
+    color: #1874a8;
+    transition: .1s ease-in;
+    -webkit-transition: .1s ease-in;
+    -moz-transition: .1s ease-in;
+    -ms-transition: .1s ease-in;
+    -o-transition: .1s ease-in;
+}
+
+.data-indent2 p {
+    padding: .3rem;
+}
+
+
+/* end of searchbox2 */
+
+.Search2 {
+    color: #1874a8;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 1.5rem;
+}
+
+.Search2 .pickupdate {
+    outline: #1874a8;
+    color: #1874a8;
+    font-size: 1rem;
+    width: 23.8vw;
+    padding: .5rem 2rem;
+    border: 1px solid #1874a8;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+.Search2 .pickuptime {
+    color: #1874a8;
+    font-size: 1rem;
+    width: 23.8vw;
+    outline: #0254649d;
+    padding: 1rem;
+    border: 1px solid #1874a8;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+
+@media screen and(min-width:768px) {
+    .Search1 .pickup {
+        color: #005f73;
+        font-size: 1.1rem;
+        outline: #005f73;
+        position: relative;
+        width: 50vw;
+        margin: 1rem;
+        border: 1px solid #005f73;
+        border-radius: 9px;
+        -webkit-border-radius: 9px;
+        -moz-border-radius: 9px;
+        -ms-border-radius: 9px;
+        -o-border-radius: 9px;
+    }
+}
+
+
+/* Search-Button */
+
+.search-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+
+.search-button button {
+    width: 14rem;
+    height: 4rem;
+    margin: .7rem 0 1rem;
+    font-weight: 500;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    background-color: #005f73;
+    border: 1px solid #024653;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    font-size: 1.1rem;
+    transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -ms-transition: .2s ease-in;
+    -o-transition: .3s ease-in;
+}
+
+.search-button button:hover {
+    color: white;
+    background-color: #003742;
+    transition: .2s ease-in;
+    -webkit-transition: .2s ease-in;
+    -moz-transition: .2s ease-in;
+    -ms-transition: .2s ease-in;
+    -o-transition: .3s ease-in;
+}

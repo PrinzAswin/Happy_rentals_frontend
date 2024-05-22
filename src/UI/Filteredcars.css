@@ -1,0 +1,230 @@
+.container {
+    display: flex;
+    position: absolute;
+    top: 5rem;
+}
+
+.mycarsh1 {
+    position: absolute;
+    top: 6rem;
+}
+
+.container2 {
+    display: flex;
+    position: absolute;
+    top: 9rem;
+}
+
+.filter {
+    padding: 1.25rem;
+    height: min-content;
+    width: max-content;
+}
+
+.filter #filter {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.625rem;
+}
+
+.filter summary {
+    border: 0.0625rem solid black;
+    border-radius: 1rem;
+    padding: 0.625rem;
+    margin: 0.25rem;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+}
+
+.filter details input {
+    margin-right: 1.875rem;
+    position: relative;
+    left: 1.438rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 0.625rem;
+}
+
+#r,
+#apply {
+    margin-top: 0.3125rem;
+    padding: 0.8125rem;
+    width: 5.625rem;
+    border-radius: 1.5625rem;
+    border: 0.125rem solid snow;
+    background-color: #0077b6;
+    color: snow;
+    font-weight: 700;
+    &:hover {
+        border: 0.125rem solid #0077b6;
+        background-color: transparent;
+        color: #0077b6;
+        cursor: pointer;
+        transition: all 0.1s linear;
+    }
+}
+
+.car {
+    display: flex;
+    border-radius: 1.25rem;
+    width: max-content;
+    background-color: white;
+    margin: 0.625rem;
+    box-shadow: 0.375rem 0.3125rem 1.1875rem -0.375rem rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0.3125rem 0.3125rem 1.1875rem -0.375rem rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0.3125rem 0.3125rem 1.1875rem -0.375rem rgba(0, 0, 0, 1);
+}
+
+.car .cardetails {
+    display: flex;
+    border-right: 0.063rem solid black;
+    margin: 0.625rem;
+}
+
+.car #carimage {
+    height: 20rem;
+    width: 25rem;
+    padding: 0.625rem;
+    margin: 0.625rem;
+    background-position: center;
+    object-fit: contain;
+}
+
+.carname {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.cartext,
+.payments {
+    padding: 1.25rem;
+}
+
+.review {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0.625rem;
+}
+
+.review p,
+.icons span {
+    margin: 0.625rem;
+    font-weight: 600;
+}
+
+.review img,
+.icons img,
+#seat,
+#fuel {
+    height: 1.875rem;
+    width: auto;
+    margin: 0.3125rem;
+}
+
+.icons {
+    display: flex;
+    position: relative;
+    top: 1.25rem;
+    left: 4.375rem;
+}
+
+#af {
+    margin-top: 1.25rem;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.seat_icon {
+    position: relative;
+    top: -1rem;
+}
+
+.fuel_icon {
+    position: relative;
+    top: -1rem;
+}
+
+.type_icon {
+    position: relative;
+    top: -1rem;
+}
+
+#view {
+    padding: 0.8125rem;
+    position: absolute;
+    top: 3.4375rem;
+    right: 5rem;
+    width: 9.375rem;
+    border-radius: 1.5625rem;
+    border: 0.0625rem solid snow;
+    background-color: #0077b6;
+    color: snow;
+    font-weight: 700;
+    &:hover {
+        border: 0.125rem solid #0077b6;
+        background-color: transparent;
+        color: #0077b6;
+        cursor: pointer;
+        transition: all 0.1s linear;
+    }
+}
+
+.payments .days {
+    font-weight: 200;
+    font-style: normal;
+    margin: 0.625rem;
+    font-size: 1rem;
+    position: relative;
+    padding: 0.625rem;
+}
+
+.payments .price {
+    font-size: 2.5rem;
+}
+
+.host {
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+.host button {
+    padding: 18px;
+    border: none;
+    border-radius: 30px;
+    background-color: #0077b6;
+    width: 220px;
+}
+
+.host button a {
+    color: snow;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sidebar {
+    margin: 15px;
+    padding: 20px;
+    background-color: transparent;
+    width: max-content;
+}
+
+.sidebar .button img {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.sidebar .button {
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar .button .span {
+    position: relative;
+    top: -10px;
+}

@@ -1,0 +1,359 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: transparent;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* content */
+
+#Swiper_container {
+    padding: 30px;
+    position: relative;
+    top: 4rem;
+}
+
+#carname {
+    font-size: 2rem;
+}
+
+#car-details,
+#rating {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+#rat {
+    height: 1rem;
+    width: auto;
+    margin: 0 2px;
+}
+
+#rv,
+#reviews {
+    margin: 3px;
+    font-size: 1rem;
+}
+
+#carswiper {
+    height: 80vh;
+    width: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 30px;
+}
+
+.car-facilites {
+    width: max-content;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.engine,
+.mileage,
+.fuel-type,
+.seat-capacity,
+.gear,
+.car-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    & .engine-icon,
+    .mileage-icon,
+    .fuel-icon,
+    .seat-icon,
+    .gear-icon,
+    .car-type-icon {
+        margin: 0 15px 15px;
+    }
+}
+
+#post_review {
+    background-color: transparent;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.rating .r {
+    width: 1rem;
+    position: relative;
+    left: .5rem;
+    top: .3rem;
+}
+
+.rating .rv {
+    position: relative;
+    left: .5rem;
+    bottom: 0.6rem;
+}
+
+.Reviews {
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 9px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 9px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 9px -4px rgba(0, 0, 0, 0.75);
+    margin-bottom: 20px;
+}
+
+.user-reviews-container {
+    margin-left: 20px;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+}
+
+.user-details .pfp {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-details .user-name {
+    font-weight: 500;
+}
+
+.user-review {
+    margin: 0 40px 15px;
+    padding: 5px;
+}
+
+.date {
+    margin: 15px 10px 30px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.write-a-review {
+    width: min-content;
+    border: none;
+    border-radius: 10px;
+}
+
+.write-a-review .review {
+    display: block;
+    margin: 15px 25px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.write-a-review #rating {
+    padding: 0;
+}
+
+.write-a-review .submit {
+    display: flex;
+    align-items: center;
+    margin: 20px 100px 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 18px;
+}
+
+.write-a-review .submit .arrow {
+    height: 15px;
+    width: auto;
+    margin: 5px;
+}
+
+.write-a-review .submit {
+    background-color: #0077b6;
+    color: snow;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+#payments {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 20px 10px;
+    border-radius: 20px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.visa,
+.gpay,
+.phonepe {
+    width: 50px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    margin: 0 10px 0;
+}
+
+.methods {
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.r,
+.card {
+    margin: 10px 0 15px;
+}
+
+.r {
+    margin-right: 5px;
+}
+
+.card {
+    position: relative;
+    top: -2px;
+}
+
+#card-form,
+#UPI-details {
+    display: none;
+}
+
+.card-display {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.people {
+    height: 250px;
+    width: 250px;
+}
+
+.number {
+    margin: 0 0 20px;
+}
+
+.card-number,
+.cvv,
+.exp,
+.UPI-ID {
+    margin: 10px 15px 10px;
+}
+
+.card-number-value,
+.UPI-ID-value {
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.cvv-value,
+.exp-value {
+    padding: 10px;
+    width: 70px;
+    height: 1px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.or {
+    margin: 15px;
+    position: relative;
+    left: 100px;
+}
+
+.images-videos {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scan {
+    margin: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 70px;
+}
+
+.qr {
+    width: 300px;
+    height: 300px;
+}
+
+.upi {
+    height: 300px;
+    width: 300px;
+}
+
+#tcc {
+    margin-right: 10px;
+}
+
+.tcs {
+    font-size: 15px;
+}
+
+.tca {
+    text-decoration: none;
+    color: #0077b6;
+}
+
+#TC {
+    padding: 10px;
+    display: none;
+}
+
+.vechicle,
+.booking,
+.owenership,
+.user {
+    margin: 10px;
+    font-weight: 600;
+}
+
+.terms {
+    width: 50vw;
+}
+
+#book-car {
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 18px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    background-color: #0077b6;
+    color: white;
+    cursor: pointer;
+}
