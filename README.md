@@ -89,3 +89,8 @@ const handleChange = (value) => {
     SetInput(value);
     fetchData(value);
 }
+
+
+ "homepage": "https://prinzaswin.github.io/HappyRentals",
+ "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",

@@ -36,7 +36,6 @@ const Signup = () => {
             formData.append('email', data.email);
             formData.append('password', data.password);
             formData.append('image', imageInputRef.current.files[0]);
-
             const url = "http://localhost:3500/reg";
             const response= await axios.post(url, formData);
             navigate("/login");
